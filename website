@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClearScan - AI Privacy Scanner</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body class="text-gray-800 bg-white font-sans">
+    <!-- Navbar -->
+    <nav class="w-full fixed top-0 z-50 bg-white shadow">
+      <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+        <h1 class="text-xl font-bold">ClearScan</h1>
+        <div class="space-x-4">
+          <a href="#features" class="hover:text-blue-600">Features</a>
+          <a href="#how" class="hover:text-blue-600">How It Works</a>
+          <a href="#contact" class="hover:text-blue-600">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-20 bg-gradient-to-br from-blue-50 to-white">
+      <div class="max-w-6xl mx-auto text-center px-4">
+        <h2 class="text-4xl font-extrabold mb-4">Protect Your Data Before You Share</h2>
+        <p class="text-lg mb-6">AI-powered privacy scanning tool to detect and clean personal information from your content.</p>
+        <a href="#contact" class="bg-blue-600 text-white px-6 py-3 rounded-xl shadow hover:bg-blue-700 transition">Request Early Access</a>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-white">
+      <div class="max-w-6xl mx-auto px-4">
+        <h3 class="text-3xl font-semibold text-center mb-12">Features</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
+          <div class="p-6 rounded-lg shadow hover:shadow-lg transition">
+            <h4 class="text-xl font-bold mb-2">File Upload</h4>
+            <p>Drag and drop your documents for instant analysis.</p>
+          </div>
+          <div class="p-6 rounded-lg shadow hover:shadow-lg transition">
+            <h4 class="text-xl font-bold mb-2">PII Detection</h4>
+            <p>Identify names, emails, phone numbers, and more using AI.</p>
+          </div>
+          <div class="p-6 rounded-lg shadow hover:shadow-lg transition">
+            <h4 class="text-xl font-bold mb-2">Clean Export</h4>
+            <p>Download a privacy-cleaned version of your file.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how" class="py-20 bg-gray-50">
+      <div class="max-w-6xl mx-auto px-4">
+        <h3 class="text-3xl font-semibold text-center mb-12">How It Works</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
+          <div>
+            <h4 class="text-lg font-bold mb-2">1. Upload</h4>
+            <p>Submit your document or paste your content.</p>
+          </div>
+          <div>
+            <h4 class="text-lg font-bold mb-2">2. Scan</h4>
+            <p>Our AI scans and flags sensitive info automatically.</p>
+          </div>
+          <div>
+            <h4 class="text-lg font-bold mb-2">3. Review & Export</h4>
+            <p>Download a cleaned file or view suggestions inline.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+      <div class="max-w-xl mx-auto text-center px-4">
+        <h3 class="text-3xl font-semibold mb-6">Get Early Access</h3>
+        <p class="mb-6">Join our waitlist or reach out with questions.</p>
+        <form class="space-y-4">
+          <input type="text" placeholder="Your name" class="w-full px-4 py-3 border rounded-lg" />
+          <input type="email" placeholder="Email address" class="w-full px-4 py-3 border rounded-lg" />
+          <textarea placeholder="Message (optional)" rows="4" class="w-full px-4 py-3 border rounded-lg"></textarea>
+          <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 text-center text-sm text-gray-500">
+      © 2025 ClearScan. All rights reserved.
+    </footer>
+  </body>
+</html>
